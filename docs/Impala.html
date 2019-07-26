@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Module: Impala
+  
+    &mdash; Documentation by YARD 0.9.20
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="css/common.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  pathId = "Impala";
+  relpath = '';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="class_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="_index.html">Index (I)</a> &raquo;
+    
+    
+    <span class="title">Impala</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><h1>Module: Impala
+  
+  
+  
+</h1>
+<div class="box_info">
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  <dl>
+    <dt>Defined in:</dt>
+    <dd>lib/impala.rb<span class="defines">,<br />
+  lib/impala/base.rb,<br /> lib/impala/enum.rb,<br /> lib/impala/guest.rb,<br /> lib/impala/hotel.rb,<br /> lib/impala/address.rb,<br /> lib/impala/booking.rb,<br /> lib/impala/contact.rb,<br /> lib/impala/helpers.rb,<br /> lib/impala/version.rb,<br /> lib/impala/webhook.rb,<br /> lib/impala/document.rb,<br /> lib/impala/base_error.rb,<br /> lib/impala/opt_in_info.rb,<br /> lib/impala/webhook/base.rb,<br /> lib/impala/configuration.rb,<br /> lib/impala/booking_status.rb,<br /> lib/impala/contact_by_info.rb,<br /> lib/impala/guest_not_found.rb,<br /> lib/impala/hotel_not_found.rb,<br /> lib/impala/amount_breakdown.rb,<br /> lib/impala/loyality_program.rb,<br /> lib/impala/booking_not_found.rb,<br /> lib/impala/guest_classification.rb,<br /> lib/impala/webhook/booking_created.rb,<br /> lib/impala/webhook/validation_error.rb,<br /> lib/impala/key_transformation_middleware.rb</span>
+</dd>
+  </dl>
+  
+</div>
+
+<h2>Overview</h2><div class="docstring">
+  <div class="discussion">
+    
+<p>Interacts with the Imapala web API.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><h2>Defined Under Namespace</h2>
+<p class="children">
+  
+    
+      <strong class="modules">Modules:</strong> <span class='object_link'><a href="Impala/Enum.html" title="Impala::Enum (module)">Enum</a></span>, <span class='object_link'><a href="Impala/Helpers.html" title="Impala::Helpers (module)">Helpers</a></span>, <span class='object_link'><a href="Impala/Webhook.html" title="Impala::Webhook (module)">Webhook</a></span>
+    
+  
+    
+      <strong class="classes">Classes:</strong> <span class='object_link'><a href="Impala/Address.html" title="Impala::Address (class)">Address</a></span>, <span class='object_link'><a href="Impala/AmountBreakdown.html" title="Impala::AmountBreakdown (class)">AmountBreakdown</a></span>, <span class='object_link'><a href="Impala/Base.html" title="Impala::Base (class)">Base</a></span>, <span class='object_link'><a href="Impala/BaseError.html" title="Impala::BaseError (class)">BaseError</a></span>, <span class='object_link'><a href="Impala/Booking.html" title="Impala::Booking (class)">Booking</a></span>, <span class='object_link'><a href="Impala/BookingNotFound.html" title="Impala::BookingNotFound (class)">BookingNotFound</a></span>, <span class='object_link'><a href="Impala/BookingStatus.html" title="Impala::BookingStatus (class)">BookingStatus</a></span>, <span class='object_link'><a href="Impala/Configuration.html" title="Impala::Configuration (class)">Configuration</a></span>, <span class='object_link'><a href="Impala/Contact.html" title="Impala::Contact (class)">Contact</a></span>, <span class='object_link'><a href="Impala/ContactByInfo.html" title="Impala::ContactByInfo (class)">ContactByInfo</a></span>, <span class='object_link'><a href="Impala/Document.html" title="Impala::Document (class)">Document</a></span>, <span class='object_link'><a href="Impala/Guest.html" title="Impala::Guest (class)">Guest</a></span>, <span class='object_link'><a href="Impala/GuestClassification.html" title="Impala::GuestClassification (class)">GuestClassification</a></span>, <span class='object_link'><a href="Impala/GuestNotFound.html" title="Impala::GuestNotFound (class)">GuestNotFound</a></span>, <span class='object_link'><a href="Impala/Hotel.html" title="Impala::Hotel (class)">Hotel</a></span>, <span class='object_link'><a href="Impala/HotelNotFound.html" title="Impala::HotelNotFound (class)">HotelNotFound</a></span>, <span class='object_link'><a href="Impala/KeyTransformationMiddleware.html" title="Impala::KeyTransformationMiddleware (class)">KeyTransformationMiddleware</a></span>, <span class='object_link'><a href="Impala/LoyalityProgram.html" title="Impala::LoyalityProgram (class)">LoyalityProgram</a></span>, <span class='object_link'><a href="Impala/OptInInfo.html" title="Impala::OptInInfo (class)">OptInInfo</a></span>
+    
+  
+</p>
+
+  
+    <h2>
+      Constant Summary
+      <small><a href="#" class="constants_summary_toggle">collapse</a></small>
+    </h2>
+
+    <dl class="constants">
+      
+        <dt id="BASE_URL-constant" class="">BASE_URL =
+          
+        </dt>
+        <dd><pre class="code"><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>https://api.getimpala.com/v2/hotel/</span><span class='tstring_end'>&#39;</span></span></pre></dd>
+      
+        <dt id="VERSION-constant" class="">VERSION =
+          
+        </dt>
+        <dd><pre class="code"><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>0.1.0</span><span class='tstring_end'>&#39;</span></span></pre></dd>
+      
+    </dl>
+  
+
+
+
+
+  <h2>Class Attribute Summary <small><a href="#" class="summary_toggle">collapse</a></small></h2>
+  <ul class="summary">
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#configuration-class_method" title="configuration (class method)">.<strong>configuration</strong>  &#x21d2; Configuration </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+  </ul>
+
+
+
+
+  
+    <h2>
+      Class Method Summary
+      <small><a href="#" class="summary_toggle">collapse</a></small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#configure-class_method" title="configure (class method)">.<strong>configure</strong> {|| ... } &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#connection-class_method" title="connection (class method)">.<strong>connection</strong>  &#x21d2; Faraday::Connection </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+
+  <div id="class_attr_details" class="attr_details">
+    <h2>Class Attribute Details</h2>
+    
+      
+      <span id="configuration=-class_method"></span>
+      <div class="method_details first">
+  <h3 class="signature first" id="configuration-class_method">
+  
+    .<strong>configuration</strong>  &#x21d2; <tt><span class='object_link'><a href="Impala/Configuration.html" title="Impala::Configuration (class)">Configuration</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Impala/Configuration.html" title="Impala::Configuration (class)">Configuration</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+39
+40
+41</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/impala.rb', line 39</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_configuration'>configuration</span>
+  <span class='ivar'>@configuration</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+
+  <div id="class_method_details" class="method_details_list">
+    <h2>Class Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="configure-class_method">
+  
+    .<strong>configure</strong> {|| ... } &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+  <div class="examples">
+    <p class="tag_title">Examples:</p>
+    
+      
+      <pre class="example code"><code><span class='const'><span class='object_link'><a href="" title="Impala (module)">Impala</a></span></span><span class='period'>.</span><span class='id identifier rubyid_configure'>configure</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_config'>config</span><span class='op'>|</span>
+  <span class='id identifier rubyid_config'>config</span><span class='period'>.</span><span class='id identifier rubyid_api_key'>api_key</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>myapikey</span><span class='tstring_end'>&#39;</span></span>
+<span class='kw'>end</span></code></pre>
+    
+  </div>
+
+<p class="tag_title">Yield Parameters:</p>
+<ul class="yieldparam">
+  
+    <li>
+      
+        <span class='name'></span>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Impala/Configuration.html" title="Impala::Configuration (class)">Configuration</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+47
+48
+49
+50</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/impala.rb', line 47</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_configure'>configure</span>
+  <span class='ivar'>@configuration</span> <span class='op'>||=</span> <span class='const'><span class='object_link'><a href="Impala/Configuration.html" title="Impala::Configuration (class)">Configuration</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span>
+  <span class='kw'>yield</span> <span class='ivar'>@configuration</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="connection-class_method">
+  
+    .<strong>connection</strong>  &#x21d2; <tt>Faraday::Connection</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Faraday::Connection</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/impala.rb', line 53</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_connection'>connection</span>
+  <span class='ivar'>@connection</span> <span class='op'>||=</span> <span class='const'>Faraday</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span> <span class='const'><span class='object_link'><a href="#BASE_URL-constant" title="Impala::BASE_URL (constant)">BASE_URL</a></span></span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_conn'>conn</span><span class='op'>|</span>
+    <span class='id identifier rubyid_conn'>conn</span><span class='period'>.</span><span class='id identifier rubyid_authorization'>authorization</span> <span class='symbol'>:Bearer</span><span class='comma'>,</span> <span class='ivar'>@configuration</span><span class='period'>.</span><span class='id identifier rubyid_api_key'>api_key</span>
+    <span class='id identifier rubyid_conn'>conn</span><span class='period'>.</span><span class='id identifier rubyid_request'>request</span> <span class='symbol'>:json</span>
+
+    <span class='id identifier rubyid_conn'>conn</span><span class='period'>.</span><span class='id identifier rubyid_use'>use</span> <span class='const'><span class='object_link'><a href="Impala/KeyTransformationMiddleware.html" title="Impala::KeyTransformationMiddleware (class)">KeyTransformationMiddleware</a></span></span>
+    <span class='id identifier rubyid_conn'>conn</span><span class='period'>.</span><span class='id identifier rubyid_response'>response</span> <span class='symbol'>:json</span><span class='comma'>,</span> <span class='label'>content_type:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>application/json</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                         <span class='label'>parser_options:</span> <span class='lbrace'>{</span> <span class='label'>symbolize_names:</span> <span class='kw'>true</span> <span class='rbrace'>}</span>
+    <span class='id identifier rubyid_conn'>conn</span><span class='period'>.</span><span class='id identifier rubyid_response'>response</span> <span class='symbol'>:raise_error</span>
+
+    <span class='id identifier rubyid_conn'>conn</span><span class='period'>.</span><span class='id identifier rubyid_adapter'>adapter</span> <span class='const'>Faraday</span><span class='period'>.</span><span class='id identifier rubyid_default_adapter'>default_adapter</span>
+  <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+
+      <div id="footer">
+  Generated on Mon Aug 12 09:41:52 2019 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.20 (ruby-2.6.3).
+</div>
+
+    </div>
+  </body>
+</html>

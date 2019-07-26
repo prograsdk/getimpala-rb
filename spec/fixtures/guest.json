@@ -1,0 +1,53 @@
+{
+  "data": {
+    "id": "5bf2856765265100df4d0337",
+    "title": "Miss",
+    "firstName": "Terrance",
+    "middleName": "Jaime",
+    "lastName": "Huel",
+    "sexCode": 2,
+    "emails": ["Alaina.Hahn@example.com"],
+    "phoneNumbers": ["700 864 248 1150"],
+    "languageCode": "eng",
+    "nationalityCode": "PHL",
+    "dateOfBirth": "1988-11-10",
+    "placeOfBirth": "London",
+    "loyaltyPrograms": [
+      {
+        "code": "BWR",
+        "membershipNumber": "6006637602349631",
+        "memberSince": "2005-11-10"
+      }
+    ],
+    "notes": "The guest prefers to have a south-facing room. They enjoy the Opera when they stay.",
+    "classifications": ["RETURNING", "VIP"],
+    "documents": [
+      {
+        "type": "PASSPORT",
+        "number": "789567123"
+      }
+    ],
+    "addresses": [
+      {
+        "line1": "25116 Moen Crescent",
+        "line2": "Tx",
+        "city": "Lake Elfrieda",
+        "postalCode": "96762-1414",
+        "countryCode": "AGO"
+      }
+    ],
+    "optIns": {
+      "marketResearch": false,
+      "thirdParty": false,
+      "marketing": true,
+      "misc": false
+    },
+    "contactBy": {
+      "email": true,
+      "sms": false,
+      "phone": false
+    },
+    "createdAt": "1551448516",
+    "updatedAt": "1551448516"
+  }
+}

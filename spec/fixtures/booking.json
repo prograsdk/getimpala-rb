@@ -1,0 +1,46 @@
+{
+  "data": {
+    "id": "485159",
+    "reference": "3701937",
+    "status": "CHECKED_IN",
+    "bookingSetId": "457295772",
+    "ratePlanId": "BAR4",
+    "market": {
+      "code": "IDL",
+      "description": "Individual Leisure"
+    },
+    "source": {
+      "code": "EXP",
+      "description": "Expedia.com"
+    },
+    "origin": {
+      "code": "ON",
+      "description": "Online"
+    },
+    "channelManager": "SynXis Channel Connect",
+    "start": "1551830400",
+    "end": "1552003200",
+    "areaId": "95151a02-8264-4ed0-927f-184de0d07c64",
+    "requestedAreaTypeId": "6ab22725-961d-4e96-a6bf-17ca7c1742a9",
+    "adultCount": 1,
+    "childCount": 0,
+    "infantCount": 0,
+    "netAmount": 18132,
+    "grossAmount": 20000,
+    "taxAmount": 1868,
+    "taxRate": "0.103",
+    "amountBreakdown": [],
+    "currencyCode": "USD",
+    "contact": {
+      "id": "5c41b84f9de35076b9b0f060",
+      "type": "guest"
+    },
+    "guestIds": ["123456"],
+    "allocationId": "cb9aa447-8d12-4864-9d5b-388c720e69ce",
+    "createdAt": "1531207775",
+    "cancelledAt": "null",
+    "updatedAt": "1531207775",
+    "companyIds": ["123456"],
+    "externalReferences": ["PN39DR", "472857122"]
+  }
+}

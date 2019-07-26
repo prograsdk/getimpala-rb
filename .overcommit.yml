@@ -1,0 +1,11 @@
+PreCommit:
+  RuboCop:
+    enabled: true
+  Yard:
+    enabled: true
+    command: ['bundle', 'exec', 'yard', '-o', 'docs']
+    on_yard: fail
+
+PrePush:
+  RSpec:
+    enabled: true
